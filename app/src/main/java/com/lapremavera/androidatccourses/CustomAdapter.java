@@ -42,7 +42,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
             ImageView imageView = holder.imageViewIcon;
 
             textViewName.setText(dataset.get(listposition).getName());
-            imageView.setImageResource(R.mipmap.ic_launcher);
+            imageView.setImageResource(R.drawable.robotje);
 
     }
 
